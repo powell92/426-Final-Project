@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Space Worm - The Game</title> 
+    <link rel='stylesheet' href='style.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css'>
+</head>
+
+<body id='body'>
+
+    <br>
+    <div class='flexy'>
+        <div class='box'>
+            <h1 class='title is-1 has-text-primary'>Space Hub</h1>
+        </div>
+    </div>
+
+    <br>
+    <div class='flexy'>
+        <div class='box subtitle is-5 has-text-success'>
+            <h1 class='title is-2 has-text-primary flexy'>Space Worm - The Game</h1>
+            <p>Control the Space Worm with arrow keys or WASD</p>
+            <p>As it eats dark matter, it becomes longer and become faster</p>
+            <p>New dark matter may appear UNDER the Space Worm, watch for it!</p>
+            <br>
+            <canvas id='the-game' width='640' height='480'></canvas>
+        </div>
+    </div>
+    
+    <br>
+    <div class='flexy'>
+        <div class='box'>
+            <p class='has-text-primary' id='btcprice'></p>
+        </div>
+    </div>
+
+    <br>
+    <div class='flexy'>
+        <div class='box'>
+            <p class='has-text-primary' id='jotd'></p>
+        </div>
+    </div>
+
+    <br>
+    <div class='flexy'>
+        <div class='box'>
+            <p class='has-text-primary' id='headlines'></p>
+        </div>
+    </div>
+
+    <br>
+    <div class="flexy">
+        <div class="box">
+            <h1 class='title has-text-primary'>Upcoming Launches</h1>
+            <div id="launches" class="row columns is-multiline"></div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="node_modules_copy/axios/dist/axios.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.0.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.0.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.0.2/firebase-auth.js"></script>
+
+    <script src='game.js'></script>
+</body>
+
+</html>

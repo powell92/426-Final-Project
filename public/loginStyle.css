@@ -1,0 +1,55 @@
+input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+	color: rgb(56, 56, 56);
+}
+
+.block:not(:last-child) {
+	margin-bottom: 1.5rem;
+}
+
+#buttons {
+	width: 50%;
+}
+
+#txtEmail {
+	font-weight: bold;
+	font-size: 20px;
+	color: rgb(56, 56, 56);
+}
+
+#txtPassword {
+	font-weight: bold;
+	font-size: 20px;
+	color: rgb(56, 56, 56);
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	color: turquoise;
+}
+
+body, html {
+	height: 100%;
+}
+	
+.bg { 
+	background-image: url("https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/images/554241main_pia11667_full.jpg");
+	height: 100%; 
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.flexy {
+	display: flex;
+	align-items: center;     /* vertical */
+	justify-content: center; /* horizontal */
+}
+  
+.flexy > div {
+	background-color: rgba(56, 56, 56, 0.65);
+	color: #fff;
+}
+
+.center {
+	margin: 10%;
+}

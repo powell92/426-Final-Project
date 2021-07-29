@@ -1,0 +1,33 @@
+body {
+	background-color: rgb(56, 56, 56);
+	background-size: 100%;
+	background-position: center;
+	background-repeat: repeat-y;
+}
+
+h1 {
+	text-align: center;
+}
+
+p {
+	text-align: center;
+}
+
+canvas {
+	outline: rgba(0, 0, 0, 0.5) 5px solid;
+}
+
+.flexy {
+	display: flex;
+	align-items: center;     /* vertical */
+	justify-content: center; /* horizontal */
+}
+
+.flexy > div {
+	background-color: rgba(56, 56, 56, 0.75);
+	color: #fff;
+}
+
+a:hover {
+  	background-color:turquoise;
+}
